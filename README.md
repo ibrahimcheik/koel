@@ -2,6 +2,20 @@
 
 ![Showcase](http://koel.phanan.net/dist/img/showcase.png?2)
 
+The installation and documentation of koel
+---------------------------------------------
+git clone https://github.com/phanan/koel
+
+cd koel
+
+composer install
+
+php artisan koel:init
+
+php artisan serve
+
+Server started on http://localhost:8000/
+
 ## Intro
 
 **Koel** (also stylized as **koel**, with a lowercase k) is a simple web-based personal audio streaming service written in [Vue](http://vuejs.org/) on the client side and [Laravel](http://laravel.com/) on the server side. Targeting web developers, Koel embraces some of the more modern web technologies – CSS grid, audio, and drag-and-drop API to name a few – to do its job.
